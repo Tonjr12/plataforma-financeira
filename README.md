@@ -1,14 +1,22 @@
-# Plataforma de Análise Financeira e Risco
+# 💰 Plataforma Financeira — Pipeline & Análise de Dados com Python e MySQL
 
-## O que é este projeto?
-Este é o meu projeto principal de estudos em Ciência e Engenharia de Dados. 
-O objetivo é construir um sistema que receba dados de transações financeiras, guarde tudo em um banco de dados e calcule se uma operação é segura ou se tem risco de fraude.
-
-## O que vou aprender construindo isso?
-1. **Git e GitHub:** Para guardar e organizar meu código de forma profissional.
-2. **Python:** Para construir a lógica do sistema.
-3. **SQL e Banco de Dados:** Para armazenar clientes e transações com segurança.
-4. **Matemática e Estatística:** Para calcular médias, riscos e padrões.
+Projeto end-to-end desenvolvido em **Python** integrado ao banco de dados relacional **MySQL** (`plataforma_db`) para ingestão, armazenamento estruturado e análise de transações financeiras.
 
 ---
-*Projeto em construção por Tonjr*
+
+## 🎯 Objetivo do Projeto
+Organizar movimentações financeiras em uma arquitetura modular que separa a camada de banco de dados, a ingestão de registros e a análise dos indicadores, servindo como base prática para engenharia e análise de dados.
+
+---
+
+## 🗂️ Estrutura do Repositório
+
+```text
+plataforma-financeira/
+├── src/
+│   ├── database/      # Conexão e configuração do banco MySQL (plataforma_db)
+│   ├── ingestion/     # Rotinas de entrada, tratamento e carga de transações
+│   ├── analise.py     # Consultas e análise exploratória dos dados financeiros
+│   └── main.py        # Orquestração e execução principal do sistema
+├── .gitignore
+└── README.md
