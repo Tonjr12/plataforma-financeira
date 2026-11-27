@@ -3,3 +3,8 @@ __pycache__/
 .env
 .venv/
 .vscode/
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/plataforma-financeira.iml
+.idea/modules.xml
+.idea/vcs.xml
